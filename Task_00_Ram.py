@@ -40,28 +40,14 @@ elif r==5:
     print("Enter number for root: ")
     y=int(input())
     z=1/y
-    if y==1:
-        print("{}st root of {} is {}".format(y,x,x**z))
-    elif y==2:
-        print("{}nd root of {} is {}".format(y,x,x**z))
-    elif y==3:
-        print("{}rd root of {} is {}".format(y,x,x**z))
-    else:
-        print("{}th root of {} is {}".format(y,x,x**z))
+    print("The answer is {}".format(x**z))
 elif r==6:
     print("Enter number for base: ")
     x=int(input())
     print("Enter number for power")
-    y=int(input())
-    z=y
-    if y==1:
-        print("{}st power of {} is {}".format(y,x,x**z))
-    elif y==2:
-        print("{}nd power of {} is {}".format(y,x,x**z))
-    elif y==3:
-        print("{}rd power of {} is {}".format(y,x,x**z))
-    else:
-        print("{}th power of {} is {}".format(y,x,x**z))
+    z=int(input())
+    y=z
+    print("{} raised to the power {} is {}".format(x,y,x**z))
 elif r==7:
     print("Enter the base of log: ")
     X=(input())
@@ -101,26 +87,4 @@ elif r==9:
     print("The resultant Matrix is: ")
     print(M3)
 else:
-    print("Please restart the program and enter a valid input ")
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-    
+    print("Please restart the program and enter a valid input ") 
